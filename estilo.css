@@ -1,0 +1,33 @@
+body {
+	font-family: Arial;
+
+	width: 80%;	
+	margin: 30px auto; 
+}
+header{
+	background-color: #236B8E;
+	color: #fff
+	   padding: 20px;
+}
+/*eliminar las villetas del menu*/
+header ul{
+	list-style: none;
+}
+/*Eliminar el subrayado de los enlaces*/ 
+header ul li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+}
+header ul li a:hover:{
+	background-color: #303030;
+}
+main{
+	background-color: #C0D9D9;
+	padding: 20px;
+}
+footer{
+	background-color: #7F00FF;
+	color: #fff;
+	padding: 10px;
+}
